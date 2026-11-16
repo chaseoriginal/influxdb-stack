@@ -14,7 +14,7 @@ version: "3.8"
 
 services:
   influxdb:
-    image: 2.7.12
+    image: influxdb:2.7.12
     container_name: influxdb
     hostname: influxdb
     restart: always
